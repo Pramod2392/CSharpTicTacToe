@@ -6,10 +6,10 @@ namespace CSharpTicTacToe
     {
         public static void TicTacToe()
         {
-            Console.WriteLine("Hello World!");
-            
-            
+            GameData game = new GameData();
 
+            Console.WriteLine("Welcome to TicTacToe");
+            
             Console.ReadLine();
         }
     }
