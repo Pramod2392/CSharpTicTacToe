@@ -4,10 +4,13 @@ namespace CSharpTicTacToe
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Console.WriteLine("Hello World!");
-            Console.WriteLine("Test");
+            
+            //Make a start menu for replays, continuing from saves, playing tictactoe 
+
+            Play.TicTacToe();
 
             Console.ReadLine();
         }
